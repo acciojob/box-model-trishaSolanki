@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body{
+	margin:0;
+	padding:0;
+}
+.container{
+	border:3px solid black;
+	margin: 0 auto;
+	rounded-border:100px;
+	border-radius:11%;
+	background-color:darkgray;
+	display:flex;
+	text-align:center;
+	width:500px;
+	height:200px;
+}
+.red{
+	display:inline-flex;
+	margin:10px;
+	rounded-border:10px;
+	border-radius:100%;
+	background-color:red;
+	width:140px;
+	height:100px;
+}
+.green{
+rounded-border:10px;
+	border-radius:100%;
+	background-color:green;
+	width:140px;
+	height:100px;	
+	display:inline-flex;
+	margin:10px;
+}
+.yellow{
+	rounded-border:10px;
+	border-radius:100%;
+	background-color:yellow;
+	width:140px;
+	height:100px;
+	display:inline-flex;
+	margin:10px;
+}
+
+
